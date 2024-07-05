@@ -45,8 +45,8 @@ export const OptionsContainer = styled.div`
 `
 
 export const Button = styled.button`
-    width: 25px;
-    height: 25px;
+    width: 90px;
+    height: 35px;
     color: black;
     background-color: yellow;
     border: none;
