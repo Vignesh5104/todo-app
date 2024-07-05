@@ -21,7 +21,9 @@ export const Input = styled.input`
     cursor: pointer;
     padding: 20px;
     margin-right: 10px;
-    
+    @media screen and (max-width: 576px){
+     height: 27px;   
+    }
 `
 
 export const AddButton = styled.button`
@@ -34,4 +36,7 @@ export const AddButton = styled.button`
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    @media screen and (max-width: 576px){
+     width: 25%;   
+    }
 `
