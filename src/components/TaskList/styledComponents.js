@@ -47,9 +47,10 @@ export const OptionsContainer = styled.div`
 export const Button = styled.button`
     width: 25px;
     height: 25px;
-    color: yellow;
-    background-color: transparent;
+    color: black;
+    background-color: yellow;
     border: none;
+    font-weight: bold;
     border-radius: 15px;
     margin-right: 10px;
     outline: none;
