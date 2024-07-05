@@ -64,6 +64,8 @@ export const Button = styled.button`
     cursor: pointer;
     @media screen and (max-width: 576px){
         height: 30px;
-        width: 75px;
+        width: 55px;
+        margin-bottom: 4px;
+        border-radius: 10px;
     }
 `
