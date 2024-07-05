@@ -22,7 +22,7 @@ export const TextContainer = styled.div`
     display: flex;
     align-items: center;
     @media screen and (max-width: 576px){
-        width: 67%;
+        width: 55%;
     }
 `
 
