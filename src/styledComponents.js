@@ -79,8 +79,8 @@ export const EditButton = styled.button`
 `
 
 export const Button = styled.button`
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 35px;
     color: black;
     background-color: yellow;
     border: none;
