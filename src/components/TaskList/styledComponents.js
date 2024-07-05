@@ -21,6 +21,9 @@ export const TextContainer = styled.div`
     width: 80%;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 576px){
+        width: 67%;
+    }
 `
 
 export const CheckBox = styled.input`
