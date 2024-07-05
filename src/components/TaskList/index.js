@@ -1,3 +1,6 @@
+import { FaRegEdit } from "react-icons/fa"
+import { MdDelete } from "react-icons/md"
+
 import {TaskItem, TextContainer, CheckBox, Text, OptionsContainer, Button} from "./styledComponents"
 
 const TaskList = (props) => {
@@ -24,10 +27,10 @@ const TaskList = (props) => {
             </TextContainer>
             <OptionsContainer>
                 <Button type="button" onClick={onEditTask} disabled={isEditing}>
-                    Edit
+                    <FaRegEdit size='1.5em'/>
                 </Button>
                 <Button type="button" onClick={onDeleteTask} disabled={isEditing}>
-                    Delete
+                    <MdDelete size='1.5em'/>
                 </Button>
             </OptionsContainer>
         </TaskItem>
