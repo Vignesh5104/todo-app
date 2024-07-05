@@ -38,6 +38,7 @@ export const EditContainer = styled.form`
     width: 70%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 25px;
     @media screen and (max-width: 576px){
      width: 97%;   
