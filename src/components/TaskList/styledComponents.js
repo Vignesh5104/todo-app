@@ -21,6 +21,9 @@ export const TextContainer = styled.div`
     width: 80%;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 576px){
+        width: 65%;
+    }
 `
 
 export const CheckBox = styled.input`
@@ -42,8 +45,10 @@ export const Text = styled.p`
 export const OptionsContainer = styled.div`
     display: flex;
     max-width: 20%;
-    @media screen and (max-width: 576px){
-        width: 15%;
+     @media screen and (max-width: 576px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `
 
@@ -59,6 +64,6 @@ export const Button = styled.button`
     cursor: pointer;
     @media screen and (max-width: 576px){
         height: 30px;
-        width: 50px;
+        width: 75px;
     }
 `
