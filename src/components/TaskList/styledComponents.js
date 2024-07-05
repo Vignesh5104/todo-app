@@ -14,6 +14,7 @@ export const TaskItem = styled.li`
     padding: 15px;
     @media screen and (max-width: 576px){
         width: 98%;
+        padding: 10px;
     }
 `
 
@@ -45,6 +46,9 @@ export const Text = styled.p`
 export const OptionsContainer = styled.div`
     display: flex;
     max-width: 20%;
+    @media screen and (max-width: 576px){
+        width: 15%;
+    }
 `
 
 export const Button = styled.button`
@@ -58,4 +62,8 @@ export const Button = styled.button`
     margin-right: 10px;
     outline: none;
     cursor: pointer;
+    @media screen and (max-width: 576px){
+        height: 30px;
+        width: 50px;
+    }
 `
