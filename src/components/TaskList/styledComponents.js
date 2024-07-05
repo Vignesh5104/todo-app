@@ -14,7 +14,6 @@ export const TaskItem = styled.li`
     padding: 15px;
     @media screen and (max-width: 576px){
         width: 98%;
-        padding: 10px;
     }
 `
 
@@ -22,9 +21,6 @@ export const TextContainer = styled.div`
     width: 80%;
     display: flex;
     align-items: center;
-    @media screen and (max-width: 576px){
-        width: 55%;
-    }
 `
 
 export const CheckBox = styled.input`
@@ -59,7 +55,6 @@ export const Button = styled.button`
     border: none;
     font-weight: bold;
     border-radius: 15px;
-    margin-right: 10px;
     outline: none;
     cursor: pointer;
     @media screen and (max-width: 576px){
