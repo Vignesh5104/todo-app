@@ -4,6 +4,7 @@ import {v4 as uuidv4} from "uuid"
 import TaskInput from "./components/TaskInput"
 import TaskList from "./components/TaskList"
 
+import { MdCancel } from "react-icons/md"
 import {AppContainer, CardContainer, TaskListContainer, EditContainer, Input, EditButton, Button} from './styledComponents.js'
 
 class App extends Component{
@@ -109,8 +110,8 @@ class App extends Component{
           {isEditing && (<EditContainer>
             <Input type='text' value={editingTask} onChange={this.changeEditingTask}/>
             <EditButton type='button' onClick={this.updateEditTask}>Update</EditButton>
-            <Button type='button' onClick={this.cancelUpdate}>
-              Cancel
+            <Button type='button'>
+              <MdCancel onClick={this.cancelUpdate} size='1.8em' color='white'/>
             </Button>
           </EditContainer>)}
 
