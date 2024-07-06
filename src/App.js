@@ -4,7 +4,7 @@ import {v4 as uuidv4} from "uuid"
 import TaskInput from "./components/TaskInput"
 import TaskList from "./components/TaskList"
 
-import {AppContainer, CardContainer, TaskListContainer, EditContainer, Input, EditButton, Button} from './styledComponents.js'
+import {AppContainer, CardContainer, TaskListContainer, EditContainer, Input, ButtonsContainer, EditButton, Button} from './styledComponents.js'
 
 class App extends Component{
   state = {
@@ -108,10 +108,12 @@ class App extends Component{
 
           {isEditing && (<EditContainer>
             <Input type='text' value={editingTask} onChange={this.changeEditingTask}/>
+            <ButtonsContainer>
             <EditButton type='button' onClick={this.updateEditTask}>Update</EditButton>
             <Button type='button' onClick={this.cancelUpdate}>
               Cancel 
             </Button>
+            </ButtonsContainer>
           </EditContainer>)}
 
           <TaskListContainer>
