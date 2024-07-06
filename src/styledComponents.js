@@ -36,9 +36,6 @@ export const TaskListContainer = styled.ul`
 
 export const EditContainer = styled.form`
     width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 25px;
     @media screen and (max-width: 576px){
      width: 97%;   
@@ -46,7 +43,7 @@ export const EditContainer = styled.form`
 `
 
 export const Input = styled.input`
-    width: 75%;
+    width: 100%;
     height: 35px;
     background-color: #C5C3BD;
     font-size: 17px;
@@ -57,8 +54,13 @@ export const Input = styled.input`
     padding: 20px;
     margin-right: 10px;
     @media screen and (max-width: 576px){
-     width: 80%;   
+     width: 100%;   
     }
+`
+
+export default ButtonsContainer = styled.div`
+    display: flex;
+    justify-content: flex-end;
 `
 
 export const EditButton = styled.button`
